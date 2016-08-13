@@ -1,0 +1,80 @@
+/*******************************************************************************
+Parallax made by Lazar Nikolic
+*******************************************************************************/
+
+
+body{
+  margin:0; 
+  padding: 0;
+}
+
+ul{
+  margin:0; 
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  overflow: hidden;
+  height: 600px;
+  position: relative;
+}
+
+ul li .textonimage {
+  position: absolute;
+  top:140px;
+  left: 100px;
+  color:red;
+  font-family: halvetica;
+  font-weight: bold;
+}
+h1{
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+h2{
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.parallax-background{
+  height: 700px;
+}
+
+.prva{
+  background-image: url("../images/1.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.druga{
+  background-image: url("../images/2.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.treca{
+  background-image: url("../images/3.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.cetvrta{
+  background-image: url("../images/4.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.peta{
+  background-image: url("../images/5.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.sesta{
+  background-image: url("../images/6.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
